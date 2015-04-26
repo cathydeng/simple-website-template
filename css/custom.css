@@ -2,3 +2,20 @@ img{
     height: 200px;
     margin: 10px;
 }
+
+.colored-header{
+    background-color: #F9E6DC;
+    margin-bottom: 30px;
+}
+
+.circle{
+    width:30px;
+    height:30px;
+    background: #BDF0AA;
+    padding: 0px 11px 0px 11px;
+    border-radius: 100%;
+}
+
+.step-detail{
+    margin-left: 45px;
+}

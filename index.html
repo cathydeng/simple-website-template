@@ -5,37 +5,102 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>HOW TO VOTE</title>
+    <title>MY WEBSITE TITLE</title>
 
-    <link rel="shortcut icon" href="/favicon.png">
+    <!--
+    including font awesome - it is nifty for adding icons to your webpage
+    see http://fortawesome.github.io/Font-Awesome/icons/
+    -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- 
+    including bootstrap - it is nifty for pre-styled components
+    see http://getbootstrap.com/components/ for components
+    see https://bootswatch.com/ for other bootstrap themes
+    -->
     <link href="https://bootswatch.com/yeti/bootstrap.min.css" rel="stylesheet">
+
+    <!-- 
+    including a custom stylesheet that you can edit - css/custom.css
+    -->
     <link href="css/custom.css" rel="stylesheet">
 
   </head>
 
-    <body>
-        <div class='container'>
-            <div class='row'>
-                <div class='col-sm-12'>
-                    <div class="jumbotron">
-  <h1>This is how to vote</h1>
-  <p>Here are some deadlines and important things to know</p>
-  <h3><i class="fa fa-calendar fa-lg"></i>
-                      Send in your stuff by 4/26/15</h3>
-                    <br>
-  <p><a class="btn btn-primary btn-lg" href="#" role="button">Do a thing</a></p>
-</div>
-                    <img src="http://d24wuq6o951i2g.cloudfront.net/img/events/id/206/2063860/assets/823.Civic_DesignCamp_Outlined_sticker.png"></img>
-                </div>
-            </div>
+  <body>
+    <div class="container-fluid colored-header">
+        <div class="row">
+          <div class="col-sm-12">
+            <h1>WANA MAKE A WEBSITE IN < 15 MINS?!?!</h1>
+            <h4>here's a guide for folks who are new to web development, using github pages</h4>
+          </div>
         </div>
-    </body>
+    </div>
 
-    <script type="text/javascript">
-        $(document).ready(function() {
-            // your javascript here
-        });
-    </script>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+
+          <p class="h3 step">
+            <span class="circle">1</span>
+            Make a <a href="https://github.com/">github</a> account
+          </p>
+          <p class="step-detail">
+            Github is a place where lotsa people store code projects. It's great for open source development because people can collaborate on projects, or take an existing project and adapt it. Github relies on git, a version control software (version control = keeping track of changes to files), but you don't have to worry about that yet - just know that git and github are different things. Github is great for code, but it's not only for developers!
+          </p>
+
+          <p class="h3 step">
+            <span class="circle">2</span>
+            Fork my repo, <a href="https://github.com/cathydeng/my-website" target="blank">my-website</a> (click fork on the top right)
+          </p>
+          <p class="step-detail">
+            A <i>repo</i> or <i>repository</i> is just another word for project, & <i>fork</i> is just another word for copy. The <a href="https://github.com/cathydeng/my-website" target="blank">cathydeng/my-website</a> repo is the code for this website. A few things happen when you fork my-website:
+          </p>
+          <ul class="step-detail">
+            <li>
+              <strong>You get a copy of the code</strong> - a my-website repo under <i>your</i> github account<br>
+              <i class="fa fa-link"></i> https://github.com/[YOUR USERNAME]/my-website
+            </li>
+            <li>
+              <strong>You get a copy of this website</strong> - at <i>your own url</i>, yay!<br>
+              <i class="fa fa-link"></i> https://[YOUR USERNAME].github.io/my-website
+            </li>
+          </ul>
+          <div class="well well-sm step-detail">
+            You have your own url because github has a really nifty feature, <a href="https://pages.github.com/">github pages</a>, which hosts static pages for you. If you're curious, here are some notes on how this works:
+            <small>
+            <ul>
+              <li>For any github repo, if you have code in the gh-pages branch, github will look for whatever is in index.html & host it at https://[YOUR USERNAME].github.io/[YOUR REPO NAME]</li>
+              <li>You can see what branches a repo has by clicking the branch dropdown on a repo page. Think of branches as different versions of the files within your repo (yes, git-related words are weird, I know).</li>
+              <li>When you create a repo from scratch, you start with one default branch called master, and you'll have to create the gh-pages branch. Within a repo, you can create however many branches you want.</li>
+              <li>Because I already had a gh-pages branch in <a href="https://github.com/cathydeng/my-website" target="blank">cathydeng/my-website</a>, all forks of my repo will also have a gh-pages branch</li>
+            </ul></small>
+          </div>
+
+          <p class="h3 step">
+            <span class="circle">3</span>
+            Tweak stuff to your heart's content
+          </p>
+          <p class="step-detail">
+            [elaborate here]
+          </p>
+
+          <p class="h3 step">
+            <span class="circle">4</span>
+            See the changes on your website! YEAHHH instant gratification
+          </p>
+          <p class="step-detail">
+            <i class="fa fa-link"></i> https://[YOUR USERNAME].github.io/my-website</li>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+        // your javascript here
+    });
+  </script>
 
 </html>
