@@ -70,10 +70,10 @@
             You have your own url because github has a really nifty feature, <a href="https://pages.github.com/">github pages</a>, which hosts static pages for you. If you're curious, here are some notes on how this works:
             <small>
             <ul>
-              <li>For any github repo, if you have code in the gh-pages branch, github will look for whatever is in index.html & host it at https://[YOUR USERNAME].github.io/[YOUR REPO NAME]</li>
-              <li>You can see what branches a repo has by clicking the branch dropdown on a repo page. Think of branches as different versions of the files within your repo (yes, git-related words are weird, I know).</li>
-              <li>When you create a repo from scratch, you start with one default branch called master, and you'll have to create the gh-pages branch. Within a repo, you can create however many branches you want.</li>
-              <li>Because I already had a gh-pages branch in <a href="https://github.com/cathydeng/my-website" target="blank">cathydeng/my-website</a>, all forks of my repo will also have a gh-pages branch</li>
+              <li>For any github repo, if you have code in the <code>gh-pages</code> branch, github will look for whatever is in <code>index.html</code> & host it at https://[YOUR USERNAME].github.io/[YOUR REPO NAME]</li>
+              <li>You can see what branches a repo has by clicking the branch dropdown on a repo page. Think of branches as different versions of the files within your repo, kind of like 'save as' on a repo (yes, git-related words are weird, I know).</li>
+              <li>When you create a repo from scratch, you start with one default branch called <code>master</code>, and you'll have to create the <code>gh-pages</code> branch. Within a repo, you can create however many branches you want.</li>
+              <li>Because I already had a <code>gh-pages</code> branch in <a href="https://github.com/cathydeng/my-website" target="blank">cathydeng/my-website</a>, all forks of my repo will also have a <code>gh-pages</code> branch</li>
             </ul></small>
           </div>
 
@@ -81,8 +81,17 @@
             <span class="circle">3</span>
             Tweak stuff to your heart's content
           </p>
+          <p class="step-detail"><strong>HOW TO EDIT FILES</strong></p>
           <p class="step-detail">
-            [elaborate here]
+            Within your my-website repo on github (https://github.com/[YOUR USERNAME]/my-website), you'll see <code>index.html</code>, a folder called <code>css/</code> with <code>custom.css</code> inside it, and <code>README.md</code> (whenever a repo has a README.md inside it, github displays it on the repo page below the file list). You can click the files to see their contents, and click the <i class="fa fa-pencil"></i> icon to edit your code, in your browser!
+          </p>
+          <p class="step-detail"><strong>HOW TO 'SAVE' YOUR CHANGES</strong></p>
+          <p class="step-detail">
+            When you're happy with what you have, you'll need to commit your changes. Think of committing as saving. Each time you make a commit on github, you can put a message saying what you did - in the future, you can see each of your commits, and how your files changed (version control! yay). When you commit, see step 4!
+          </p>
+          <p class="step-detail"><strong>PREVIEWING YOUR CHANGES</strong></p>
+          <p class="step-detail">
+            You'll probably want to see what your website will look like, without blindly tweaking html/css - after all, coding is mostly an exercise in trial & error. This is where codepen comes in - coding in a browser! You can <a href="http://codepen.io/pen/" target="blank">create a new 'pen'</a>, copy over your html & css, and see the result. Try deleting everything within the <code>&lt;body&gt;</code> tag in the html and making something completely new?
           </p>
 
           <p class="h3 step">
@@ -95,12 +104,18 @@
         </div>
       </div>
     </div>
-  </body>
 
-  <script type="text/javascript">
-    $(document).ready(function() {
-        // your javascript here
-    });
-  </script>
+    <div class="container-fluid colored-footer">
+        <div class="row">
+          <div class="col-sm-12">
+            <h3>ABOUT</h3>
+            <p>This was made by <a href="https://cathydeng.github.io">Cathy Deng</a>, who thinks that there are too many barriers to entry for beginners in web development: knowing that git != github, installing git, knowing git commands, installing a text editor, navigating directories at the command line, etc etc. While there are tons of online resources on the <i>syntax</i> of various languages like HTML or CSS or whatever, it's still very much non-trivial to figure out <i>how to put a goddamn thing on the web</i>. This documents what is, IMO, the most beginner-friendly way to put a goddamn thing on the web.</p>
+            <p>Now, if you went through this guide and got excited about being able to make whatever you want, you should totally move on to getting comfortable with the <a href="http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line" target="blank">command line</a> & learning git! Realistically, most folks don't code in their browser, and instead code locally in an editor (like Sublime Text). You can think of github as like dropbox (in that you have files 'in the cloud' & locally), except stuff doesn't 'sync' automatically, and you use git to control when/how to 'sync' stuff. That's a gross over-simplification though, and there's a <i>lot</i> to learn.</p>
+            <p>Anyways, if you found this helpful, or found anything confusing, I'd love to <a href="https://twitter.com/cthydng" target="blank">hear from you</a>!</p>
+          </div>
+        </div>
+    </div>
+
+  </body>
 
 </html>

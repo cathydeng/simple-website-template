@@ -8,6 +8,11 @@ img{
     margin-bottom: 30px;
 }
 
+.colored-footer{
+    background-color: #F9E6DC;
+    margin-top: 50px;
+}
+
 .circle{
     width:30px;
     height:30px;
