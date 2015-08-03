@@ -4,19 +4,14 @@ img{
 }
 
 .colored-header{
-    background-color: #F9E6DC;
+    background-color: #e3ebee;
     margin-bottom: 30px;
-}
-
-.colored-footer{
-    background-color: #F9E6DC;
-    margin-top: 50px;
 }
 
 .circle{
     width:30px;
     height:30px;
-    background: #BDF0AA;
+    background: #eee;
     padding: 0px 11px 0px 11px;
     border-radius: 100%;
 }
